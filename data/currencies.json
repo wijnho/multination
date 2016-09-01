@@ -1,0 +1,37 @@
+{
+  "usd": {
+    "code": "usd",
+    "label": "united states dollar",
+    "reinforcement": {
+      "symbol": "US$"
+    }
+  },
+  "rmb": {
+    "code": "rmb",
+    "label": "人民币",
+    "reinforcement": {
+      "symbol": "CN¥"
+    }
+  },
+  "myr": {
+    "code": "myr",
+    "label": "ringgit malaysia",
+    "reinforcement": {
+      "symbol": "RM"
+    }
+  },
+  "gbp": {
+    "code": "gbp",
+    "label": "pound sterling",
+    "reinforcement": {
+      "symbol": "£"
+    }
+  },
+  "sgd": {
+    "code": "sgd",
+    "label": "singapore dollar",
+    "reinforcement": {
+      "symbol": "S$"
+    }
+  }
+}

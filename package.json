@@ -1,0 +1,19 @@
+{
+  "name": "multination",
+  "version": "0.0.1",
+  "description": "Collection of country, calling-code, currency symbol",
+  "main": "build/index.js",
+  "scripts": {
+    "watch": "babel -w src/ -d build/",
+    "build": "babel src/ -d build/"
+  },
+  "author": "wijn",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "json-loader": "^0.5.4"
+  }
+}
