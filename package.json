@@ -9,6 +9,10 @@
   },
   "author": "wijn",
   "license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/wijnho/multination"
+	},
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-plugin-transform-runtime": "^6.12.0",
