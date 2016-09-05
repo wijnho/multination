@@ -14,7 +14,7 @@ function getSelectedCurrency() {
   var selected = arguments.length <= 0 || arguments[0] === undefined ? [] : arguments[0];
 
   return selected.map(function (cV) {
-    var currency = _currencies2.default[cV];
+    var currency = _currencies2.default[cV.toUpperCase()];
 
     if (!currency) {
       throw new Error('Unsupport currency ' + cV);
